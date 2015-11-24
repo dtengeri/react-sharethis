@@ -20,7 +20,10 @@
     "url": "https://github.com/dtengeri/react-sharethis/issues"
   },
   "homepage": "https://github.com/dtengeri/react-sharethis",
-  "dependencies": {
-    "react": "^0.14.3"
-  }
+  "peerDependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {"transform": ["reactify"]}
 }
