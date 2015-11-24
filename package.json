@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dtengeri/react-sharethis/issues"
   },
-  "homepage": "https://github.com/dtengeri/react-sharethis"
+  "homepage": "https://github.com/dtengeri/react-sharethis",
+  "dependencies": {
+    "react": "^0.14.3"
+  }
 }
