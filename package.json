@@ -1,6 +1,6 @@
 {
   "name": "react-sharethis",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React component for ShareThis widgets",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
     "react-dom": "^0.14.3",
     "reactify": "^1.1.1"
   },
-  "browserify": {"transform": ["reactify"]}
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
 }
