@@ -29,9 +29,10 @@ var ShareThisButton = React.createClass({
 
   render: function render() {
     var classes = ['share', 'share-' + this.props.service];
-    return (
-      <span className={classes.join(' ')} ref="button"></span>
-    );
+    return React.createElement('span', {
+      className: classes.join(' '),
+      ref: 'button'
+    });
   },
 });
 
